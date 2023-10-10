@@ -4,6 +4,9 @@
     margin-top: 100px;
     margin-bottom: 10px;
 }
+:root::-webkit-scrollbar{
+    display: none;
+}
 .drum-div{
     border-radius: 10px;
     width: 40vw;
