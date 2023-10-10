@@ -1,15 +1,15 @@
 import React from "react";
 export default class Drum extends React.Component{
 
-    h1a = new Audio('Heater-1.mp3')
-    h2a = new Audio('Heater-2.mp3')
-    h3a = new Audio('Heater-3.mp3')
-    h4a = new Audio('Heater-4_1.mp3')
-    h6a = new Audio('Heater-6.mp3')
-    oha = new Audio('Dsc_Oh.mp3')
-    ch2a = new Audio('Cev_H2.mp3')
-    knha = new Audio('Kick_n_Hat.mp3')
-    rk1a = new Audio('RP4_KICK_1.mp3')
+    h1a = new Audio('./Heater-1.mp3')
+    h2a = new Audio('./Heater-2.mp3')
+    h3a = new Audio('./Heater-3.mp3')
+    h4a = new Audio('./Heater-4_1.mp3')
+    h6a = new Audio('./Heater-6.mp3')
+    oha = new Audio('./Dsc_Oh.mp3')
+    ch2a = new Audio('./Cev_H2.mp3')
+    knha = new Audio('./Kick_n_Hat.mp3')
+    rk1a = new Audio('./RP4_KICK_1.mp3')
 
     playh1(){
         this.h1a.play();
